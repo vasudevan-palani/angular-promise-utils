@@ -60,14 +60,12 @@ To include this source in your nodejs application
 
 Step1 :
 ```
-npm install promiseutils
+include the angular-promise-utils.js in your web app
 ```
 
 Step2 :
 
-```
-promiseutils = require('promiseutils');
-```
+include angular-promise-utils module in your angular module and start using $promiseUtils service.
 
 ## License
 
