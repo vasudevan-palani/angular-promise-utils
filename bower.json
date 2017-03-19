@@ -1,0 +1,29 @@
+{
+  "name": "angular-promise-utils",
+  "description": "Angular service which provides utilties to handle promises",
+  "main": "index.js",
+  "authors": [
+    "Vasudevan PALANI"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Promise",
+    "promise-utils",
+    "array",
+    "list",
+    "batch"
+  ],
+  "homepage": "https://github.com/vasudevan-palani/angular-promise-utils",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.3",
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "angular-promise-utils",
+  "version": "0.1.0",
+  "description": "Angular service which provides utilties to handle promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Promise",
+    "promise-utils",
+    "array",
+    "list",
+    "batch"
+  ],
+  "author": "Vasudevan PALANI",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
