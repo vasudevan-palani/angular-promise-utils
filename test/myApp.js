@@ -1,7 +1,7 @@
 angular.module('app', ['angular-promise-utils']).controller('myController', function($scope, $promiseUtils, $http) {
     $scope.findseq = function() {
 
-        $promiseUtils.retryUntilSuccess({zipcode:'33025'}, $scope.getPromise, {}).then(function(resp) {
+        $promiseUtils.retry({zipcode:'33025'}, $scope.getPromise, {}).then(function(resp) {
         	console.log(resp);
             $scope.zipcodes[0].full_address = resp.data.formatted_address;
         });

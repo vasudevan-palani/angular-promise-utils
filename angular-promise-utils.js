@@ -30,7 +30,7 @@ function PromiseUtils($q, $timeout) {
 
             });
         },
-        firstFailure: function(promiseList, options) {
+        raceToFail: function(promiseList, options) {
 
             let list = promiseList;
 
@@ -52,7 +52,7 @@ function PromiseUtils($q, $timeout) {
 
             });
         },
-        firstSuccess: function(promiseList, options) {
+        race: function(promiseList, options) {
             let list = promiseList;
 
             let successlist = [];
@@ -74,7 +74,7 @@ function PromiseUtils($q, $timeout) {
 
             });
         },
-        retryUntilSuccess: function(variable, promisify, options) {
+        retry: function(variable, promisify, options) {
             let maxretry = options.maxretry || 3;
             let interval = options.interval || 5;
 
@@ -103,7 +103,7 @@ function PromiseUtils($q, $timeout) {
                 }, kofn);
             });
         },
-        sequenceAll: function(variables, promisify, options) {
+        seq: function(variables, promisify, options) {
 
             let list = angular.copy(variables);
 

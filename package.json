@@ -1,6 +1,6 @@
 {
   "name": "angular-promise-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Angular service which provides utilties to handle promises",
   "main": "index.js",
   "scripts": {
