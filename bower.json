@@ -1,7 +1,7 @@
 {
   "name": "angular-promise-utils",
   "description": "Angular service which provides utilties to handle promises",
-  "main": "index.js",
+  "main": "angular-promise-utils.js",
   "authors": [
     "Vasudevan PALANI"
   ],
@@ -14,7 +14,6 @@
     "batch"
   ],
   "homepage": "https://github.com/vasudevan-palani/angular-promise-utils",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
